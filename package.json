@@ -1,20 +1,30 @@
 {
-  "name": "express-workshop",
+  "name": "express_workshop",
   "version": "1.0.0",
   "description": "An API REST using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoZC/express_workshop.git"
+  },
   "keywords": [
-    "api",
-    "rest",
+    "node",
     "express",
-    "nodejs"
+    "jwt",
+    "mysql"
   ],
   "author": "Gerardo Zamora",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardoZC/express_workshop/issues"
+  },
+  "homepage": "https://github.com/GerardoZC/express_workshop#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
   }
 }
